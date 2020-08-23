@@ -3,8 +3,21 @@
 	<!-- insert your AIML categories here -->
 	
 	<category>
-    <pattern>HI *</pattern>
-    <template>Hello, world!</template>
+    <pattern>*</pattern>
+    <template>
+        Hello, there. I am WGU CS department chatbot.
+        I will try to help you idintify yor interests in Comp. Scince and 
+        help you choose your future career.
+        Press YES if you would like to continue or NO to exit.
+        <button>
+            <text>YES</text>
+            <postback>yes</postback>
+        </button>
+        <button>
+            <text>NO</text>
+            <postback>no</postback>
+        </button>
+        </template>
 </category>
 
 </aiml>
